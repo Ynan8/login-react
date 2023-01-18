@@ -1,0 +1,104 @@
+/*Register Type*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+  font-family: 'Kanit', sans-serif;
+}
+body {
+    background-color: rgb(212, 210, 210);
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.x{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-type {
+    background-color: white;
+    width: 70%;
+    height: auto;
+    /* height: 100%; */
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+}
+
+.hd-title h2 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 70%;
+}
+
+.card {
+    background-color: rgb(241, 244, 255);
+    width: 30%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-decoration: none;
+    color: grey;
+}
+
+.card p {
+    color: grey;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+.card a {
+    color: grey;
+    text-decoration: none;
+    margin-top: 3%;
+    margin-bottom: 5%;
+
+}
+
+.back-btn {
+    color: grey;
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(241, 244, 255);
+    width: 100px;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    padding: 8px;
+
+}
+
+.back-btn a {
+    color: grey;
+    text-decoration: none;
+}
+
+.back-btn a:active {
+    color: grey;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 719px) {
+    .outer-container-type {
+        height: 300px
+    }
+
+    .card {
+        width: 35%;
+    }
+}
